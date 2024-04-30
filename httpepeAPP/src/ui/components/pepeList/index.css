@@ -1,0 +1,43 @@
+.pepes-container {
+    width: 100%;
+    min-height: 95vh;
+    max-width: 1499px;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5% 2%;
+    overflow: scroll;
+    display: grid;
+        grid-template-columns: repeat(auto-fill,minmax(300px, 300px));
+}
+::-webkit-scrollbar {
+    display: none;
+  }
+.pepe-card{
+    box-shadow: inset 0 0 12px #000000;
+    color: #ffffff;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #000000;
+    display: flex;
+    flex-direction: column;
+}
+.pepe-card img{
+    height: 58%;
+    max-width: 100%;
+    align-self: center;
+    margin-top: 5%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+}
+.pepe-card-text-holder{
+    display: flex;
+    flex-direction: column;
+    background: #256d2f;
+    align-items: center;
+}
+.pepe-card-text-holder h1{
+    margin: 5%;
+}
+.pepe-card-text-holder p{
+    margin: 2%;
+}
